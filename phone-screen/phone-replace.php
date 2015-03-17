@@ -25,4 +25,4 @@ function maskPhoneNumberSolution($str, $mask = 'x')
 }
 // a candidate who may not be familiar with closures in PHP might use capture groups, which would also solve the
 // problem, but is less flexible when capture groups are of dynamic width.
-// a candidate with dated experience, may use the /e pattern modifier, which has been deprecated.
+// a candidate with dated experience, may use the /e pattern modifier, which has been deprecated as of 5.5.

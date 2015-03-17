@@ -1,10 +1,11 @@
 # Phone Screen
-Questions and snippets to quickly screen candidates
+Questions and snippets to quickly screen candidates for further discussion in-person.
 
 ## Technical Questions
 
 * What is distinguishes an abstract class from an ordinary class? What distinguishes an abstract class from an interface? What is a final class? What about a trait?
 * What is the difference between a public, private, and protected function?
+* What is the difference between method overloading and method overriding? Which is not allowed in PHP?
 * Explain MVC concepts like: Router, Autoloader, Front Controller. What purpose does an ORM serve?
 * What does it mean for a web service to be considered RESTful?
 
