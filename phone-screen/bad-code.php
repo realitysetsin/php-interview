@@ -40,6 +40,7 @@ class badCode {
  * 6. Static call on an instance variable.
  * 7. The function has different return types (boolean and int).
  * 8. The variable styles are inconsistent.
+ * 9. mysql_insert_id only works on insert, not update
  *
  * There may be others
  */

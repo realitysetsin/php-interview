@@ -1,7 +1,5 @@
 <?php
 /**
- * Complete the function such that when provided a string and a replacement character, it will replace all phone numbers
- * matching the following two formats with the replacement character: (123) 456-7890, 123-456-7890
  *
  * Example:
  * maskPhoneNumber('Call me at (818) 274-0260 as soon as possible.', 'x')
@@ -26,3 +24,5 @@ function maskPhoneNumberSolution($str, $mask = 'x')
 // a candidate who may not be familiar with closures in PHP might use capture groups, which would also solve the
 // problem, but is less flexible when capture groups are of dynamic width.
 // a candidate with dated experience, may use the /e pattern modifier, which has been deprecated as of 5.5.
+// a candidate with REALLY poor experience might try to capture each format individually and replace it with its
+// masked equivalent (e.g. "{$mask}{$mask}{$mask}-{$mask}{$mask}{$mask}-{$mask}{$mask}{$mask}{$mask}")
